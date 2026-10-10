@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+
+# Built host tool (build it with: clang -fobjc-arc -framework Foundation -o tools/duo-hinge tools/duo-hinge.m)
+tools/duo-hinge
+
+# Python
+__pycache__/

@@ -1,0 +1,39 @@
+name: DuoDemo
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGNING_ALLOWED: "NO"
+targets:
+  DuoDemo:
+    type: application
+    platform: iOS
+    sources: [DuoDemo]
+    info:
+      path: DuoDemo/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight, UIInterfaceOrientationPortraitUpsideDown]
+  DuoDemoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [DuoDemoUITests]
+    dependencies:
+      - target: DuoDemo
+    settings:
+      base:
+        TEST_TARGET_NAME: DuoDemo
+schemes:
+  DuoDemo:
+    build:
+      targets:
+        DuoDemo: all
+        DuoDemoUITests: [test]
+    test:
+      targets: [DuoDemoUITests]

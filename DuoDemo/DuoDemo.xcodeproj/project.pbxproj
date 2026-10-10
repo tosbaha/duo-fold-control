@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09ECD5E809AA541B23E6C9A9 /* DuoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF6053EEF4CD401D33ACF6 /* DuoDemoApp.swift */; };
+		4D9A6B74776747820E2F67A4 /* DuoFoldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D73DE41D20C433704054D /* DuoFoldUITests.swift */; };
+		E7D1D6DEE60E04733AEA5AF9 /* DuoFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF9E8E7DA2F383A42442B /* DuoFold.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C399264958CF835C22791297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F8403593B1FB5DE1EDBE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED68B5204952A33D267BB1DF;
+			remoteInfo = DuoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9DAE0C8DCE7008CFB73439 /* DuoDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DuoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443D73DE41D20C433704054D /* DuoFoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoFoldUITests.swift; sourceTree = "<group>"; };
+		635DE7492A6D78658FF66BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		791910345E819E6F4A143849 /* DuoDemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DuoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DFF9E8E7DA2F383A42442B /* DuoFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoFold.swift; sourceTree = "<group>"; };
+		D5DF6053EEF4CD401D33ACF6 /* DuoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoDemoApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		39FEA857773C9DE19FCF5461 /* DuoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D5DF6053EEF4CD401D33ACF6 /* DuoDemoApp.swift */,
+				635DE7492A6D78658FF66BE9 /* Info.plist */,
+			);
+			path = DuoDemo;
+			sourceTree = "<group>";
+		};
+		50566D44C8999524E8B4E88C = {
+			isa = PBXGroup;
+			children = (
+				39FEA857773C9DE19FCF5461 /* DuoDemo */,
+				885382325172773D60E7A6A2 /* DuoDemoUITests */,
+				F26CC1C6A8F6078D9B67CB7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885382325172773D60E7A6A2 /* DuoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DFF9E8E7DA2F383A42442B /* DuoFold.swift */,
+				443D73DE41D20C433704054D /* DuoFoldUITests.swift */,
+			);
+			path = DuoDemoUITests;
+			sourceTree = "<group>";
+		};
+		F26CC1C6A8F6078D9B67CB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9DAE0C8DCE7008CFB73439 /* DuoDemo.app */,
+				791910345E819E6F4A143849 /* DuoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0E416D51082317E6C7E953 /* DuoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14137FA35B0BE17F9CD2F30F /* Build configuration list for PBXNativeTarget "DuoDemoUITests" */;
+			buildPhases = (
+				24316545BA6023107EB68C8F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0359F749DD35D4788B08BC2 /* PBXTargetDependency */,
+			);
+			name = DuoDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = DuoDemoUITests;
+			productReference = 791910345E819E6F4A143849 /* DuoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ED68B5204952A33D267BB1DF /* DuoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3FBC5E998D8C71C788C12F /* Build configuration list for PBXNativeTarget "DuoDemo" */;
+			buildPhases = (
+				AB5C7AE43286688008AF74D6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoDemo;
+			packageProductDependencies = (
+			);
+			productName = DuoDemo;
+			productReference = 0F9DAE0C8DCE7008CFB73439 /* DuoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F8403593B1FB5DE1EDBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8E0E416D51082317E6C7E953 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED68B5204952A33D267BB1DF;
+					};
+					ED68B5204952A33D267BB1DF = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 558DFFBA0C0DBDC61D228649 /* Build configuration list for PBXProject "DuoDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 50566D44C8999524E8B4E88C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F26CC1C6A8F6078D9B67CB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED68B5204952A33D267BB1DF /* DuoDemo */,
+				8E0E416D51082317E6C7E953 /* DuoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24316545BA6023107EB68C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D1D6DEE60E04733AEA5AF9 /* DuoFold.swift in Sources */,
+				4D9A6B74776747820E2F67A4 /* DuoFoldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C7AE43286688008AF74D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ECD5E809AA541B23E6C9A9 /* DuoDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0359F749DD35D4788B08BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED68B5204952A33D267BB1DF /* DuoDemo */;
+			targetProxy = C399264958CF835C22791297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		165FBAFB1FCFCBB005EC7515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A48E6FB77E6E6F3C356F8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DuoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DuoDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4DC382FF3361C36829D7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5612EAF1231CCF0F8A277A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DuoDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuoDemo;
+			};
+			name = Release;
+		};
+		7CC9C2BE5BAC523F8BB03779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DuoDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuoDemo;
+			};
+			name = Debug;
+		};
+		EE7788BC0BC10536BC7FA0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DuoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DuoDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14137FA35B0BE17F9CD2F30F /* Build configuration list for PBXNativeTarget "DuoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC9C2BE5BAC523F8BB03779 /* Debug */,
+				5612EAF1231CCF0F8A277A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		558DFFBA0C0DBDC61D228649 /* Build configuration list for PBXProject "DuoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4DC382FF3361C36829D7F3 /* Debug */,
+				165FBAFB1FCFCBB005EC7515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF3FBC5E998D8C71C788C12F /* Build configuration list for PBXNativeTarget "DuoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A48E6FB77E6E6F3C356F8B4 /* Debug */,
+				EE7788BC0BC10536BC7FA0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650F8403593B1FB5DE1EDBE4 /* Project object */;
+}
